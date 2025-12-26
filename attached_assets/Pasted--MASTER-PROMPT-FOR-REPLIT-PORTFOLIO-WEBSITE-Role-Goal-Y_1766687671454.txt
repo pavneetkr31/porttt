@@ -1,0 +1,252 @@
+🔥 MASTER PROMPT FOR REPLIT (PORTFOLIO WEBSITE)
+
+Role & Goal
+You are a senior frontend engineer and creative developer specializing in animated, immersive portfolio websites.
+Your task is to build a modern, animated rave-themed portfolio website using React.js, Next.js, TypeScript, Barba.js, and Three.js, optimized for performance and deployable on Replit.
+
+🧠 TECH STACK (MANDATORY)
+
+Next.js (App Router)
+
+React.js
+
+TypeScript
+
+Three.js (3D background & effects)
+
+Barba.js (smooth page transitions)
+
+CSS Modules or Tailwind CSS
+
+GSAP (optional but recommended for animations)
+
+🎨 THEME & DESIGN
+
+Rave / Neon / Cyberpunk aesthetic
+
+Dark background (black / deep purple)
+
+Neon colors (electric blue, magenta, cyan, lime)
+
+Glow effects, animated gradients, blur & noise overlays
+
+Smooth, cinematic motion
+
+Futuristic typography
+
+Fully responsive (desktop + mobile)
+
+🧩 WEBSITE SECTIONS (REQUIRED)
+1️⃣ Hero / Landing Section
+
+Full-screen animated hero
+
+Three.js animated background (particles, waves, or abstract 3D shapes)
+
+Neon glowing name text
+
+Subtitle (e.g., Creative Developer / Full-Stack Engineer)
+
+Animated “Scroll Down” indicator
+
+Subtle parallax effects
+
+2️⃣ About Section
+
+Animated entrance on scroll
+
+Short bio text
+
+Timeline-style layout
+
+Floating neon shapes in background
+
+Text glow on hover
+
+3️⃣ Education Section
+
+Timeline design
+
+Animated progress line
+
+Neon cards for each education item
+
+Hover animation with glow & scale
+
+Fields:
+
+Degree
+
+Institution
+
+Year
+
+Description
+
+4️⃣ Experience Section
+
+Vertical or horizontal timeline
+
+Animated cards using GSAP
+
+Smooth fade/slide transitions
+
+Fields:
+
+Job Title
+
+Company
+
+Duration
+
+Responsibilities
+
+5️⃣ Skills Section
+
+Animated skill grid
+
+Neon icons
+
+Progress bars or circular loaders
+
+Hover glow animation
+
+Categories:
+
+Frontend
+
+Backend
+
+Tools
+
+Creative Tech
+
+6️⃣ Projects Section
+
+Grid or carousel layout
+
+Each project card includes:
+
+Project Name
+
+Description
+
+Tech Stack
+
+Live Demo button
+
+GitHub link
+
+Hover effects:
+
+Neon border
+
+Image zoom
+
+Background glow
+
+Optional 3D tilt effect
+
+7️⃣ Contact Section
+
+Animated contact form
+
+Fields:
+
+Name
+
+Email
+
+Message
+
+Neon glowing inputs
+
+Button with ripple animation
+
+Form validation
+
+Success animation
+
+Optional email integration (mock or placeholder)
+
+🔁 PAGE TRANSITIONS (IMPORTANT)
+
+Use Barba.js for smooth page transitions
+
+Fade + slide transitions between routes
+
+Prevent full page reload
+
+Smooth scroll restoration
+
+🌐 NAVIGATION
+
+Fixed animated navbar
+
+Smooth scroll to sections
+
+Neon hover underline animation
+
+Mobile hamburger menu with animated open/close
+
+🧠 PERFORMANCE & STRUCTURE
+
+Modular component structure
+
+Reusable animation hooks
+
+Lazy load Three.js scenes
+
+Proper TypeScript typing
+
+SEO-friendly metadata
+
+Clean folder structure:
+
+/app
+/components
+/sections
+/hooks
+/styles
+/utils
+/public
+
+🚀 DEPLOYMENT REQUIREMENTS
+
+Must run properly on Replit
+
+Include:
+
+package.json
+
+tsconfig.json
+
+Proper Next.js config
+
+Clear instructions to:
+
+Install dependencies
+
+Run dev server
+
+Build project
+
+📄 OUTPUT EXPECTATIONS
+
+Generate complete working code
+
+Explain:
+
+Project structure
+
+How animations work
+
+How Barba.js is integrated with Next.js
+
+Include comments in code
+
+Ensure no build errors
+
+🎯 FINAL GOAL
+
+Create a visually stunning, rave-themed animated portfolio website that feels high-end, futuristic, and immersive, suitable for a creative developer / engineer portfolio.
