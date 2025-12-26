@@ -1,13 +1,13 @@
-import type { Express } from "express";
+import type { Express, Request, Response, NextFunction } from "express";
 import type { Server } from "http";
 import { storage } from "./storage";
 import { api } from "@shared/routes";
 import { z } from "zod";
 
 export async function registerRoutes(
-  httpServer: Server,
-  app: Express
-): Promise<Server> {
+  app: Express,
+  httpServer?: Server,
+): Promise<Server | undefined> {
   // Initialize seed data
   await storage.seedProjects();
 
@@ -32,5 +32,15 @@ export async function registerRoutes(
     res.json(projects);
   });
 
-  return httpServer;
+  const httpServerToReturn = httpServer;
+
+  app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
+    const status = err.status || err.statusCode || 500;
+    const message = err.message || "Internal Server Error";
+
+    res.status(status).json({ message });
+    throw err;
+  });
+
+  return httpServerToReturn;
 }
